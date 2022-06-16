@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/main_menu">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+<!--        <item-->
+<!--            android:id="@+id/add"-->
+<!--            android:icon="@drawable/ic_baseline_add_24"-->
+<!--            android:title="Add" />-->
+
+        <item
+            android:id="@+id/currencyFragment"
+            android:icon="@drawable/ic_baseline_monetization_on_24"
+            android:title="Currency" />
+
+    </group>
+
+</menu>
